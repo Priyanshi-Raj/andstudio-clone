@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    
 }
 #navbar{
     display: flex;
@@ -46,6 +47,19 @@
     font-size: 150%;
     padding-top: 2rem;
 }
+.animation{
+    display: flex;
+}
+.right{
+    display: flex;
+}
+.right-animation img{
+  
+    padding-top: 10rem;
+}
+.right-animation{
+    overflow-x: hidden;
+}
 .animation p span{
     font-size: 10rem;
     color:black;
@@ -80,6 +94,20 @@
 		transform: translateY(-100%);
 
 	}
+}
+.second-content{
+    display: flex;
+}
+.text p{
+    padding-top: 31rem;
+    padding-left: 8rem;
+    font-size: 180%;
+    font-weight: 600;
+}
+.hr{
+    padding-top: 15rem;
+    padding-left: 0.2rem;
+    font-weight: 800;
 }
 
 
