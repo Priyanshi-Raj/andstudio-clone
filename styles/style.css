@@ -101,13 +101,40 @@
     margin-bottom: 10%;
     margin-right: 10%;
 }
+.text  :hover .line {
+    width: 0;
+    margin: 0 5px;
+  }
 
 .text p{
     padding-top: 31rem;
     padding-left: 8rem;
     font-size: 180%;
     font-weight: 600;
+    
 }
+.line {
+    display: inline-block;
+    position: relative;
+    top: -4px;
+    margin: 0 10px;
+    width: 80px;
+    height: 2px;
+    background: #000;
+    transform: scale(1);
+	transition: 0.4s ease-in;
+
+
+
+}/*
+.text p span :hover{
+    animation-name: b;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+display: none;    
+
+}*/
+
 .hr{
     padding-top: 15rem;
     padding-left: 0.2rem;
@@ -223,7 +250,7 @@
 
 padding-bottom: 10rem;
 }
-.view span{
+.line1{
     display: inline-block;
     position: relative;
     top: -4px;
@@ -231,8 +258,17 @@ padding-bottom: 10rem;
     width: 80px;
     height: 2px;
     background: rgb(255, 255, 255);
-    transition: 0.7s cubic-bezier(0.65, 0, 0.17, 0.98);
+    transform: scale(1);
+	transition: 0.4s ease-in;
+
+  
 }
+.projects  :hover .line1 {
+    width: 0;
+    margin: 0 5px;
+    
+  }
+
 .footer{
     background-color: #d2d2d2;
     padding-bottom: 20%;
@@ -265,7 +301,7 @@ padding-bottom: 10rem;
     font-weight: 300;
     
 }
-.hello span{
+.line2{
     display: inline-block;
     position: relative;
     top: -4px;
@@ -273,10 +309,15 @@ padding-bottom: 10rem;
     width: 80px;
     height: 2px;
     background: #000;
-    transition: 0.7s cubic-bezier(0.65, 0, 0.17, 0.98);
+    transform: scale(1);
+	transition: 0.4s ease-in;
 
 
 }
+.footer :hover .line2{
+width: 0;
+margin: 0 5px;}
+
 .socials ul {
     margin-left: 50%;
     margin-top: 8%; 
@@ -328,36 +369,30 @@ padding-bottom: 10rem;
     justify-content: space-between;
     
 }
-.visit span{
+.line3{
     display: inline-block;
     position: relative;
     top: -4px;
     margin: 0 10px;
     width: 80px;
     height: 2px;
-    background: #000;
+    background: rgb(75, 74, 74);
   
     transform: scale(1);
 	transition: 0.4s ease-in;
 
 
 }
-.visit:hover span{
-    transform: scale(0);
+
+.design-components :hover .line3{
+    width: 0;
+    margin: 0 5px;
+    color: black;
+
     
 }
-.text span{
-    display: inline-block;
-    position: relative;
-    top: -4px;
-    margin: 0 10px;
-    width: 80px;
-    height: 2px;
-    background: #000;
-    transition: 0.7s cubic-bezier(0.65, 0, 0.17, 0.98);
 
 
-}
 .hr1{
     display: inline-block;
     position: relative;
